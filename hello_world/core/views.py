@@ -5,3 +5,7 @@ def index(request):
         "title": "Django example",
     }
     return render(request, "index.html", context)
+
+def First_Hello(request):
+    
+    return render(request,"first.html")
